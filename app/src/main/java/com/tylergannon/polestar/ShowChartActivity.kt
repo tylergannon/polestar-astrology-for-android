@@ -25,6 +25,7 @@ class ShowChartActivity : AppCompatActivity() {
             val viewName = "house_" + house.branch.name.toLowerCase()
             findViewById<ChartHouseView>(resources.getIdentifier(viewName, "id", packageName))?.run {
                 setData(house.palace, stars)
+                layoutParams.height = layoutParams.width
             }
         }
 

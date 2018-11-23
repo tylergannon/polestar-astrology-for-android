@@ -6,103 +6,137 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".ShowChartActivity" android:id="@+id/layout_chart_parent">
-    <com.tylergannon.polestar.ChartHouseView android:layout_width="wrap_content"
-                                             android:layout_height="wrap_content"
-                                             app:branch="Snake"
-                                             app:layout_constraintTop_toTopOf="parent"
-                                             app:layout_constraintStart_toStartOf="parent"
-                                             android:id="@+id/house_snake"
-    >
-
-    </com.tylergannon.polestar.ChartHouseView>
     <com.tylergannon.polestar.ChartHouseView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="39dp"
+            app:layout_constraintWidth_percent="0.25"
+            app:layout_constraintHeight_percent="0.25"
+
+            android:layout_height="0dp"
+            android:layout_width="0dp"
+            app:branch="Snake"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:id="@+id/house_snake"/>
+    <com.tylergannon.polestar.ChartHouseView
+            app:layout_constraintWidth_percent="0.25"
+            app:layout_constraintHeight_percent="0.25"
+
+            android:layout_height="0dp"
+            android:layout_width="0dp"
             app:branch="Horse"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toEndOf="@id/house_snake"
-            tools:layout_editor_absoluteX="156dp" android:id="@+id/house_horse"/>
+            android:id="@+id/house_horse"/>
 
     <com.tylergannon.polestar.ChartHouseView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="39dp"
+            app:layout_constraintWidth_percent="0.25"
+            app:layout_constraintHeight_percent="0.25"
+
+            android:layout_height="0dp"
+            android:layout_width="0dp"
             app:branch="Goat"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toEndOf="@id/house_horse"
-            tools:layout_editor_absoluteX="156dp" android:id="@+id/house_goat"/>
+            android:id="@+id/house_goat"/>
 
     <com.tylergannon.polestar.ChartHouseView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="39dp"
+            app:layout_constraintWidth_percent="0.25"
+            app:layout_constraintHeight_percent="0.25"
+
+            android:layout_height="0dp"
+            android:layout_width="0dp"
             app:branch="Monkey"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toEndOf="@id/house_goat"
-            tools:layout_editor_absoluteX="156dp" android:id="@+id/house_monkey"/>
+            android:id="@+id/house_monkey"/>
 
 
     <com.tylergannon.polestar.ChartHouseView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="39dp"
+            app:layout_constraintWidth_percent="0.25"
+            app:layout_constraintHeight_percent="0.25"
+
+            android:layout_height="0dp"
+            android:layout_width="0dp"
             app:branch="Rooster"
             app:layout_constraintTop_toBottomOf="@id/house_monkey"
             app:layout_constraintEnd_toEndOf="@id/house_monkey"
-            tools:layout_editor_absoluteX="156dp" android:id="@+id/house_rooster"/>
+            android:id="@+id/house_rooster"/>
 
     <com.tylergannon.polestar.ChartHouseView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="39dp"
+            app:layout_constraintWidth_percent="0.25"
+            app:layout_constraintHeight_percent="0.25"
+
+            android:layout_height="0dp"
+            android:layout_width="0dp"
             app:branch="Dog"
             app:layout_constraintTop_toBottomOf="@id/house_rooster"
             app:layout_constraintEnd_toEndOf="@id/house_rooster"
-            tools:layout_editor_absoluteX="156dp" android:id="@+id/house_dog"/>
+            android:id="@+id/house_dog"/>
 
     <com.tylergannon.polestar.ChartHouseView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="39dp"
+            app:layout_constraintWidth_percent="0.25"
+            app:layout_constraintHeight_percent="0.25"
+
+            android:layout_height="0dp"
+            android:layout_width="0dp"
             app:branch="Pig"
             app:layout_constraintTop_toBottomOf="@id/house_dog"
             app:layout_constraintEnd_toEndOf="@id/house_dog"
-            tools:layout_editor_absoluteX="156dp" android:id="@+id/house_pig"/>
+            android:id="@+id/house_pig"/>
 
     <com.tylergannon.polestar.ChartHouseView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="39dp"
+            app:layout_constraintWidth_percent="0.25"
+            app:layout_constraintHeight_percent="0.25"
+
+            android:layout_height="0dp"
+            android:layout_width="0dp"
             app:branch="Rat"
             app:layout_constraintTop_toTopOf="@id/house_pig"
             app:layout_constraintEnd_toStartOf="@id/house_pig"
-            tools:layout_editor_absoluteX="156dp" android:id="@+id/house_rat"/>
+            android:id="@+id/house_rat"/>
 
     <com.tylergannon.polestar.ChartHouseView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="39dp"
+            app:layout_constraintWidth_percent="0.25"
+            app:layout_constraintHeight_percent="0.25"
+
+            android:layout_height="0dp"
+            android:layout_width="0dp"
             app:branch="Ox"
             app:layout_constraintTop_toTopOf="@id/house_rat"
             app:layout_constraintEnd_toStartOf="@id/house_rat"
-            tools:layout_editor_absoluteX="156dp" android:id="@+id/house_ox"/>
+            android:id="@+id/house_ox"/>
 
     <com.tylergannon.polestar.ChartHouseView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="39dp"
+            app:layout_constraintWidth_percent="0.25"
+            app:layout_constraintHeight_percent="0.25"
+
+            android:layout_height="0dp"
+            android:layout_width="0dp"
             app:branch="Tiger"
             app:layout_constraintTop_toTopOf="@id/house_ox"
             app:layout_constraintEnd_toStartOf="@id/house_ox"
-            tools:layout_editor_absoluteX="156dp" android:id="@+id/house_tiger"/>
+            android:id="@+id/house_tiger"/>
 
     <com.tylergannon.polestar.ChartHouseView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="39dp"
+            app:layout_constraintWidth_percent="0.25"
+            app:layout_constraintHeight_percent="0.25"
+
+            android:layout_height="0dp"
+            android:layout_width="0dp"
             app:branch="Dragon"
             app:layout_constraintTop_toBottomOf="@id/house_snake"
             app:layout_constraintStart_toStartOf="@id/house_snake"
-            tools:layout_editor_absoluteX="156dp" android:id="@+id/house_dragon"/>
+            android:id="@+id/house_dragon"/>
 
     <com.tylergannon.polestar.ChartHouseView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" tools:layout_editor_absoluteY="39dp"
+            app:layout_constraintWidth_percent="0.25"
+            app:layout_constraintHeight_percent="0.25"
+
+            android:layout_height="0dp"
+            android:layout_width="0dp"
             app:branch="Rabbit"
             app:layout_constraintTop_toBottomOf="@id/house_dragon"
             app:layout_constraintStart_toStartOf="@id/house_dragon"
-            tools:layout_editor_absoluteX="156dp" android:id="@+id/house_rabbit"/>
+            android:id="@+id/house_rabbit"/>
 
 
     <!--<LinearLayout-->

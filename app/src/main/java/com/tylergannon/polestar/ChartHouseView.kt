@@ -24,6 +24,7 @@ class ChartHouseView(context: Context?, attrs: AttributeSet?) : RelativeLayout(c
                 addView(textView)
             }
         }
+
     }
 
     init {
