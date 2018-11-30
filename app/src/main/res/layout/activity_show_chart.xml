@@ -9,7 +9,7 @@
     <com.tylergannon.polestar.ChartHouseView
             app:layout_constraintWidth_percent="0.25"
             app:layout_constraintHeight_percent="0.25"
-
+            android:onClick="clickSnake"
             android:layout_height="0dp"
             android:layout_width="0dp"
             app:branch="Snake"
@@ -23,6 +23,7 @@
             android:layout_height="0dp"
             android:layout_width="0dp"
             app:branch="Horse"
+            android:onClick="clickHorse"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toEndOf="@id/house_snake"
             android:id="@+id/house_horse"/>
@@ -34,6 +35,7 @@
             android:layout_height="0dp"
             android:layout_width="0dp"
             app:branch="Goat"
+            android:onClick="clickGoat"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toEndOf="@id/house_horse"
             android:id="@+id/house_goat"/>
@@ -45,6 +47,7 @@
             android:layout_height="0dp"
             android:layout_width="0dp"
             app:branch="Monkey"
+            android:onClick="clickMonkey"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toEndOf="@id/house_goat"
             android:id="@+id/house_monkey"/>
@@ -57,6 +60,7 @@
             android:layout_height="0dp"
             android:layout_width="0dp"
             app:branch="Rooster"
+            android:onClick="clickRooster"
             app:layout_constraintTop_toBottomOf="@id/house_monkey"
             app:layout_constraintEnd_toEndOf="@id/house_monkey"
             android:id="@+id/house_rooster"/>
@@ -68,6 +72,7 @@
             android:layout_height="0dp"
             android:layout_width="0dp"
             app:branch="Dog"
+            android:onClick="clickDog"
             app:layout_constraintTop_toBottomOf="@id/house_rooster"
             app:layout_constraintEnd_toEndOf="@id/house_rooster"
             android:id="@+id/house_dog"/>
@@ -79,6 +84,7 @@
             android:layout_height="0dp"
             android:layout_width="0dp"
             app:branch="Pig"
+            android:onClick="clickPig"
             app:layout_constraintTop_toBottomOf="@id/house_dog"
             app:layout_constraintEnd_toEndOf="@id/house_dog"
             android:id="@+id/house_pig"/>
@@ -90,6 +96,7 @@
             android:layout_height="0dp"
             android:layout_width="0dp"
             app:branch="Rat"
+            android:onClick="clickRat"
             app:layout_constraintTop_toTopOf="@id/house_pig"
             app:layout_constraintEnd_toStartOf="@id/house_pig"
             android:id="@+id/house_rat"/>
@@ -101,6 +108,7 @@
             android:layout_height="0dp"
             android:layout_width="0dp"
             app:branch="Ox"
+            android:onClick="clickOx"
             app:layout_constraintTop_toTopOf="@id/house_rat"
             app:layout_constraintEnd_toStartOf="@id/house_rat"
             android:id="@+id/house_ox"/>
@@ -112,6 +120,7 @@
             android:layout_height="0dp"
             android:layout_width="0dp"
             app:branch="Tiger"
+            android:onClick="clickTiger"
             app:layout_constraintTop_toTopOf="@id/house_ox"
             app:layout_constraintEnd_toStartOf="@id/house_ox"
             android:id="@+id/house_tiger"/>
@@ -123,6 +132,7 @@
             android:layout_height="0dp"
             android:layout_width="0dp"
             app:branch="Dragon"
+            android:onClick="clickDragon"
             app:layout_constraintTop_toBottomOf="@id/house_snake"
             app:layout_constraintStart_toStartOf="@id/house_snake"
             android:id="@+id/house_dragon"/>
@@ -134,6 +144,7 @@
             android:layout_height="0dp"
             android:layout_width="0dp"
             app:branch="Rabbit"
+            android:onClick="clickRabbit"
             app:layout_constraintTop_toBottomOf="@id/house_dragon"
             app:layout_constraintStart_toStartOf="@id/house_dragon"
             android:id="@+id/house_rabbit"/>
